@@ -95,7 +95,7 @@ if [[ $OSTYPE == darwin* ]]; then
 fi
 
 d=$(date -I -d "$startdate") || exit -1
-enddate=$(date -I)
+enddate=$(date -I -d tomorrow)
 
 topdir=
 
