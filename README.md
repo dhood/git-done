@@ -79,6 +79,8 @@ several times! PR welcome :-)*
 
 Dependencies
 ------------
+- `curl` (optional: for sending to IDoneThis)
+
 For OS X users, please install `coreutilities` to be able to use GNU `date`.
 ```
 homebrew install coreutilities
